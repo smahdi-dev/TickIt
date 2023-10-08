@@ -22,7 +22,7 @@ export const AuthForm = styled.div`
 	.email-container,
 	.password-container {
 		position: relative;
-		width: 70%;
+		max-width: 300px;
 		margin: 0 auto;
 	}
 
@@ -38,6 +38,7 @@ export const AuthForm = styled.div`
 		border-radius: 18px;
 		margin-bottom: 1rem;
 		padding-left: 12px;
+		padding-right: 12px;
 	}
 
 	form input:focus {
@@ -46,11 +47,11 @@ export const AuthForm = styled.div`
 
 	.password-container .password-eye {
 		position: absolute;
-		width: 2.4rem;
+		width: 2.3rem;
 		border-top-right-radius: 50%;
 		border-bottom-right-radius: 50%;
-		top: -8%;
-		right: 11px;
+		top: -5%;
+		right: 26px;
 		background-color: white;
 		cursor: pointer;
 	}

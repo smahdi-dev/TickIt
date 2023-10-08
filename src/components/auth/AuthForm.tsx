@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { AuthForm } from "../../styles/authPage/LoginFormStyles";
-import loginImage from "../../assets/authPageImage.png";
-import showEye from "../../assets/show-eye.png";
-import hideEye from "../../assets/hide-eye.png";
+import loginImage from "../../assets/authPage/authPageImage.png";
+import showEye from "../../assets/authPage/show-eye.png";
+import hideEye from "../../assets/authPage/hide-eye.png";
 
 const LoginForm = () => {
 	const [showPassword, setShowPassword] = useState<boolean>(false);
